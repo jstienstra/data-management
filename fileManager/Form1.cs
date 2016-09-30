@@ -19,7 +19,43 @@ namespace fileManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("What's up, planet?", "Generic Dialog Title, yo!");
+
+            string lsWords = txtWords.Text;
+
+
+            if (String.IsNullOrEmpty(lsWords))
+            {
+
+                MessageBox.Show("Please enter a word or words into the text box.", "Error");
+                return;
+
+            }
+            else
+            {
+                
+
+                words(lsWords);
+
+            }
+
+            
+
+
+
         }
+
+
+        private void words(string rsWords)
+        {
+
+            //string lsWords = txtWords.Text;
+
+
+
+            MessageBox.Show(rsWords, "Generic Dialog Title, yo!");
+
+        }
+
+
     }
 }
