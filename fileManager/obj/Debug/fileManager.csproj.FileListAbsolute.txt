@@ -1,0 +1,9 @@
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\bin\Debug\fileManager.exe.config
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\bin\Debug\fileManager.exe
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\bin\Debug\fileManager.pdb
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\obj\Debug\fileManager.csprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\obj\Debug\fileManager.Form1.resources
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\obj\Debug\fileManager.Properties.Resources.resources
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\obj\Debug\fileManager.csproj.GenerateResource.Cache
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\obj\Debug\fileManager.exe
+E:\Documents\Visual Studio 2013\Projects\GitHub\data-management\fileManager\obj\Debug\fileManager.pdb
