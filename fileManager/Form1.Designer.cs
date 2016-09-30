@@ -1,6 +1,6 @@
 ﻿namespace fileManager
 {
-    partial class Form1
+    partial class frmFileManager
     {
         /// <summary>
         /// Required designer variable.
@@ -59,7 +59,7 @@
             this.txtMessage.Size = new System.Drawing.Size(157, 20);
             this.txtMessage.TabIndex = 2;
             // 
-            // Form1
+            // frmFileManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -67,8 +67,8 @@
             this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnShowMessage);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmFileManager";
+            this.Text = "Enter your message!";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace fileManager
 {
-    public partial class Form1 : Form
+    public partial class frmFileManager : Form
     {
-        public Form1()
+        public frmFileManager()
         {
             InitializeComponent();
         }
