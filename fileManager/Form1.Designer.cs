@@ -28,45 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEnter = new System.Windows.Forms.Button();
-            this.lblText = new System.Windows.Forms.Label();
-            this.txtWords = new System.Windows.Forms.TextBox();
+            this.btnShowMessage = new System.Windows.Forms.Button();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.txtMessage = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btnEnter
+            // btnShowMessage
             // 
-            this.btnEnter.Location = new System.Drawing.Point(149, 178);
-            this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(75, 23);
-            this.btnEnter.TabIndex = 0;
-            this.btnEnter.Text = "Enter";
-            this.btnEnter.UseVisualStyleBackColor = true;
-            this.btnEnter.Click += new System.EventHandler(this.button1_Click);
+            this.btnShowMessage.Location = new System.Drawing.Point(176, 226);
+            this.btnShowMessage.Name = "btnShowMessage";
+            this.btnShowMessage.Size = new System.Drawing.Size(96, 23);
+            this.btnShowMessage.TabIndex = 0;
+            this.btnShowMessage.Text = "Show Message";
+            this.btnShowMessage.UseVisualStyleBackColor = true;
+            this.btnShowMessage.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lblText
+            // lblMessage
             // 
-            this.lblText.AutoSize = true;
-            this.lblText.Location = new System.Drawing.Point(80, 74);
-            this.lblText.Name = "lblText";
-            this.lblText.Size = new System.Drawing.Size(59, 13);
-            this.lblText.TabIndex = 1;
-            this.lblText.Text = "Enter Text:";
+            this.lblMessage.AutoSize = true;
+            this.lblMessage.Location = new System.Drawing.Point(58, 94);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(81, 13);
+            this.lblMessage.TabIndex = 1;
+            this.lblMessage.Text = "Enter Message:";
             // 
-            // txtWords
+            // txtMessage
             // 
-            this.txtWords.Location = new System.Drawing.Point(83, 90);
-            this.txtWords.Name = "txtWords";
-            this.txtWords.Size = new System.Drawing.Size(100, 20);
-            this.txtWords.TabIndex = 2;
+            this.txtMessage.Location = new System.Drawing.Point(61, 110);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(157, 20);
+            this.txtMessage.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.txtWords);
-            this.Controls.Add(this.lblText);
-            this.Controls.Add(this.btnEnter);
+            this.Controls.Add(this.txtMessage);
+            this.Controls.Add(this.lblMessage);
+            this.Controls.Add(this.btnShowMessage);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -76,9 +76,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnEnter;
-        private System.Windows.Forms.Label lblText;
-        private System.Windows.Forms.TextBox txtWords;
+        private System.Windows.Forms.Button btnShowMessage;
+        private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.TextBox txtMessage;
     }
 }
 

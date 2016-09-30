@@ -19,43 +19,25 @@ namespace fileManager
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string lsMessage = txtMessage.Text;
 
-            string lsWords = txtWords.Text;
-
-
-            if (String.IsNullOrEmpty(lsWords))
+            if (String.IsNullOrEmpty(lsMessage))
             {
-
-                MessageBox.Show("Please enter a word or words into the text box.", "Error");
+                MessageBox.Show("Please enter a message in the text box.", "Error...");
                 return;
-
             }
-            else
+            else 
             {
-                
-
-                words(lsWords);
-
+                showMessage(lsMessage);
             }
-
-            
-
-
 
         }
 
-
-        private void words(string rsWords)
+        private void showMessage(string rsMessage)
         {
 
-            //string lsWords = txtWords.Text;
 
-
-
-            MessageBox.Show(rsWords, "Generic Dialog Title, yo!");
-
+            MessageBox.Show(rsMessage, "Generic Dialog Title, yo!");
         }
-
-
     }
 }
